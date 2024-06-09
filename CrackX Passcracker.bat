@@ -1,10 +1,10 @@
 @echo off
-title SMB Bruteforce - by Ebola Man
+title CrackX - By axo.zz
 color A
 echo.
 set /p ip="Enter IP Address: "
 set /p user="Enter Username: "
-set /p wordlist="Enter Password List: "
+set /p wordlist="Drag Password List File: "
 
 set /a count=1
 for /f %%a in (%wordlist%) do (
